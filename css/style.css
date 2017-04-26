@@ -1,0 +1,130 @@
+*{padding:0;margin:0;}
+
+html,body,.wrap{
+	height: 100%;
+	width: 100%;
+	min-width:1200px;
+	min-height: 500px;
+}
+
+a{text-decoration:none;}
+
+.wrap>div{
+	float:left;
+	height:100%;
+	min-width:150px;
+	width:12.5%;
+	perspective:1300px;
+}
+
+.rotateBox{
+	position:relative;
+	height:100%;
+	width:100%;
+	transition:.5s;
+	transform-style: preserve-3d;
+}
+
+.info{
+	position:absolute;
+	top:55%;
+	width:100%;
+	text-align:center;
+}
+.info h4{
+	color:#fff;
+	padding:10px 0 20px 0;
+	font-weight:normal;
+}
+.info a{
+	display:block;
+	color:#fff;
+	background: #40C666;
+	width:120px;
+	height:35px;
+	line-height:35px;
+	margin:10px auto;
+	border-radius:5px;
+	transition:background .2s;
+}
+.info a:hover{
+	background:#6DD38A;
+}
+
+.front,.back{
+	height:100%;
+	width:100%;
+	position:absolute;
+}
+.front{
+	background: url(../images/Ico_01.png) no-repeat;
+}
+.back{
+	background: url(../images/Ico_02.png) no-repeat;
+}
+
+.ps .front,.ps .back{background-position: -30px 40%;}
+.ps .front{
+	background-color: #3590C9;
+}
+.ps .back{
+	background-color: #2271B6;
+}
+
+.dw .front,.dw .back{background-position: -270px 40%;}
+.dw .front{
+	background-color: #40C666;
+}
+.dw .back{
+	background-color: #2AB248;
+}
+
+.fw .front,.fw .back{background-position: -510px 40%;}
+.fw .front{
+	background-color: #DEC345;
+}
+.fw .back{
+	background-color: #D2AE2E;
+}
+
+.ai .front,.ai .back{background-position: -750px 40%;}
+.ai .front{
+	background-color: #EE9833;
+}
+.ai .back{
+	background-color: #E87A21;
+}
+
+.fl .front,.fl .back{background-position: -990px 40%;}
+.fl .front{
+	background-color: #DB593B;
+}
+.fl .back{
+	background-color: #CE3D26;
+}
+
+.ld .front,.ld .back{background-position: -1230px 40%;}
+.ld .front{
+	background-color: #C04067;
+}
+.ld .back{
+	background-color: #AA2A49;
+}
+
+.pr .front,.pr .back{background-position: -1465px 40%;}
+.pr .front{
+	background-color: #A569D7;
+}
+.pr .back{
+	background-color: #894AC8;
+}
+
+.ae .front,.ae .back{background-position: -1710px 40%;}
+.ae .front{
+	background-color: #6151C3;
+}
+.ae .back{
+	background-color: #443BAE;
+}
+
+
